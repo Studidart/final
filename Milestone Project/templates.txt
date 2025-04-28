@@ -1,0 +1,171 @@
+
+tank card template
+
+<article style="--avarage-color:#c59d6b">
+  <figure>
+    <a href="templatetank.html">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/M1A2_SEP_v3.jpg" alt="tank name here">
+      <figcaption>tank name here</figcaption>
+    </a>
+  </figure>
+</article>
+
+the tank info sites
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333; /* Dark background */
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none; /* Remove bullet points */
+      display: flex; /* Make it horizontal */
+      gap: 20px; /* Space between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787; /* Color when hovering */
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px; /* 1x2 grid, 1 part for image, 2 parts for text */
+        gap: 20px; /* Space between image and text */
+        align-items: center; /* Vertically centers content */
+        padding: 20px;
+    }
+
+/* Image styles */
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%; /* Makes image responsive */
+        max-width: auto; /* Optional: Sets a max width */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+/* Text styles */
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+
+/* Optional: Make it more responsive for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Stacks the image and text vertically on small screens */
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>M1A2 SEP v3</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Gallery</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+            <div class="grid-container">
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/M1A2_SEP_v3.jpg" alt="M1A2 Abrams">
+                </div>
+                <div class="text">
+                    <h2>General information</h2>
+                    <ul>
+                        <li>
+                            Main gun:<br>L/44 120mm 40 Round
+                        </li>
+                        <li>
+                            Secondary:<br> 1x 50 cal. m2hb 900 Round<br>2x 7.62mm m240 10,400 Rounds
+                        </li>
+                        <li>
+                            Engine:<br> Honeywell AGT 1500 Multi-fuel turbine
+                        </li>
+                        <li>
+                            Entered service:<br> 2020
+                        </li>
+                        <li>
+                            start of Development:<br>2015
+                        </li>
+                        <li>
+                            Weight:<br> Over 73 tons
+                        </li>
+                        <li>
+                            Speed:<br> Up to 42 mph (67 km/h)
+                        </li>
+                        <li>
+                            Crew:<br> 4 people
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h1>History</h1>
+            <p>The M1A2 SEPv3 is an upgraded version of the famous M1 Abrams main battle tank, originally introduced by the U.S. Army in 1980. "SEP" stands for System Enhancement Package, and SEPv3 represents one of the most significant evolutionary upgrades to the tank. Development of the SEPv3 began around 2015 to ensure the Abrams could remain effective against modern threats like drones, advanced missiles, and electronic warfare. Key improvements include enhanced armor for better protection against IEDs and RPGs, upgraded electronics and networking systems for faster communication on the battlefield, better power management systems to support new technology, improved targeting sights, and preparations for active protection systems like Trophy APS. The SEPv3 started fielding to U.S. Army units around 2020, with a focus on upgrading existing M1A2 tanks instead of building entirely new ones. This upgrade keeps the Abrams competitive against near-peer adversaries like Russia or China and proves that even after more than 40 years, the Abrams can stay dominant through smart, well-planned enhancements.</p>
+        </section>
+        
+    </main>
+</body>
+</head>

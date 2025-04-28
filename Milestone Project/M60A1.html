@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333; /* Dark background */
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none; /* Remove bullet points */
+      display: flex; /* Make it horizontal */
+      gap: 20px; /* Space between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787; /* Color when hovering */
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px; /* 1x2 grid, 1 part for image, 2 parts for text */
+        gap: 20px; /* Space between image and text */
+        align-items: center; /* Vertically centers content */
+        padding: 20px;
+    }
+
+/* Image styles */
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%; /* Makes image responsive */
+        max-width: auto; /* Optional: Sets a max width */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+/* Text styles */
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        padding-right: 5px;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+
+/* Optional: Make it more responsive for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Stacks the image and text vertically on small screens */
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Tankopedia: M60A1</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section>
+            <div class="grid-container">
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/M60A1_main_battle_tank_during_Exercise_GALLANT_EAGLE_%2779_%28DF-ST-84-06850%29.jpg" alt="M60A1">
+                </div>
+                <div class="text">
+                    <h2>General information</h2>
+                    <ul>
+                        <li>
+                            Main gun:<br>m68 105mm 63mm
+                        </li>
+                        <li>
+                            Secondary:<br> 1x 50 cal. m85<br>1x 7.62mm m73
+                        </li>
+                        <li>
+                            Engine:<br> Continental AVDS-1790-2 V12, air-cooled twin-turbo diesel engine
+                        </li>
+                        <li>
+                            service:<br> 1962-today
+                        </li>
+                        <li>
+                            start of Development:<br>1957
+                        </li>
+                        <li>
+                            Weight:<br> over 47 tons
+                        </li>
+                        <li>
+                            Speed:<br> up to 30 miles per hour (48 km/h)
+                        </li>
+                        <li>
+                            Crew:<br> 4 people
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h1>History</h1>
+            <p>The M60A1 was an American main battle tank that first entered service in 1962. It was an upgrade to the M60, which was itself based on the M48 Patton tank. The M60A1 featured several key improvements, making it one of the most widely produced tanks of the 1960s and 1970s.</p>
+
+            <br><h2>Design and Features:</h2><br>
+            <p>The M60A1's most notable feature was its 105mm rifled gun, which gave it significantly improved firepower compared to its predecessors. The tank also had an advanced fire control system that included a stabilized gun, allowing it to fire accurately while moving. The armor was enhanced over the earlier M60 model, with the turret design being more angular for better protection against enemy fire. Additionally, the M60A1 had a more powerful engine that provided better mobility and operational range.</p>
+            
+            <br><h2>Operational History:</h2><br>
+            <p>The M60A1 was a critical part of the U.S. military’s armored forces during the Cold War and saw extensive action in several conflicts. It was involved in combat operations during the Vietnam War, where it was used to support infantry and in direct combat against enemy forces.</p>
+            
+            <p>In the 1973 Yom Kippur War, Israeli forces used the M60A1 to defend against a surprise attack by Syria and Egypt. It was highly valued for its durability and firepower, though it did suffer from vulnerability to modern anti-tank missiles. The tank saw extensive use during the Gulf War in 1991, where many were used by both U.S. and coalition forces.</p>
+            
+            <br><h2>Upgrades and Export:</h2><br>
+            <p>Throughout its service life, the M60A1 received a series of upgrades, such as improved armor packages (including composite armor), better fire control systems, and new engines for enhanced performance. It was one of the primary tanks used by the U.S. Army and Marines until it was gradually replaced by the M1 Abrams in the 1980s and 1990s.</p>
+            
+            <p>The M60A1 was also widely exported to U.S. allies around the world, including countries like Turkey, Israel, and Egypt, where it continued to serve into the 21st century in some places.</p>
+            
+            <br><h2>Legacy:</h2><br>
+            <p>Although replaced by newer tanks like the M1 Abrams, the M60A1 was an essential part of American armored forces for decades. It was one of the last of the older-generation tanks to see widespread service during the Cold War and is remembered for its ruggedness, adaptability, and firepower.</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+    </footer>
+</body>
+</head>

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333; /* Dark background */
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none; /* Remove bullet points */
+      display: flex; /* Make it horizontal */
+      gap: 20px; /* Space between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787; /* Color when hovering */
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+/* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px; /* 1x2 grid, 1 part for image, 2 parts for text */
+        gap: 20px; /* Space between image and text */
+        align-items: center; /* Vertically centers content */
+        padding: 20px;
+    }
+
+/* Image styles */
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%; /* Makes image responsive */
+        max-width: auto; /* Optional: Sets a max width */
+        height: auto; /* Maintain aspect ratio */
+
+    }
+
+/* Text styles */
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        padding-right: 5px;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+
+/* Optional: Make it more responsive for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Stacks the image and text vertically on small screens */
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h1>The Tankopedia: Leopard 2A7</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            
+            <div class="grid-container">
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/German_Army_Leopard_2A6_tank_in_Oct._2012.jpg" alt="Leopard 2A7">
+                </div>
+                <div class="text">
+                    <h2>General information</h2>
+                    <ul>
+                        <li>
+                            Main gun:<br> Rh-120 L/55 120
+                        </li>
+                        <li>
+                            Secondary:<br> 2x 7.62 MG3A1
+                        </li>
+                        <li>
+                            Engine:<br>MTU MB 873 Ka-501 liquid-cooled V12 twin-turbo diesel engine
+                        </li>
+                        <li>
+                            Entered service:<br> 2014
+                        </li>
+                        <li>
+                            start of Development:<br>unknown
+                        </li>
+                        <li>
+                            Weight:<br> 66.5 tons
+                        </li>
+                        <li>
+                            Speed:<br> Up to 43 mph (70 km/h)
+                        </li>
+                        <li>
+                            Crew:<br> 4 people
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h1>History</h1>
+            <p><h2>Design and Features:</h2></p>
+
+            <p><br>The Leopard 2A7 is an advanced German main battle tank that combines enhanced protection, firepower, and mobility. It features reinforced composite and modular armor for superior protection against modern threats, and is equipped with a 120mm smoothbore gun for precise firepower. Powered by a 1,500-horsepower engine, it offers excellent speed and maneuverability, while advanced sensors, including thermal imaging and a digital fire control system, ensure operational effectiveness. The tank also boasts a highly sophisticated crew interface, improved situational awareness, and active protection systems, making it one of the most capable and versatile tanks in service today.</p>
+            
+            <p><br><h2>Operational History:</h2></p>
+
+            <p><br>The Leopard 2A7 has been operational since 2014, primarily serving with the German Army, but it has also been adopted by other countries, including Qatar and Hungary. Its deployment has primarily focused on peacekeeping and defensive operations, where it has demonstrated its effectiveness in both conventional warfare and stability operations. The tank has participated in NATO exercises and training missions, further proving its reliability in diverse combat scenarios. Its high level of mobility and protection has made it an asset for operations in various terrains, although it has not yet seen direct combat in large-scale wars. The Leopard 2A7 has also been evaluated for potential use in high-intensity conflicts, where its advanced features would offer significant advantages.</p>
+            
+            <p><br><h2>Upgrades and Export:</h2></p>
+
+            <p><br>The Leopard 2A7 is an advanced variant of the Leopard 2 tank, featuring significant upgrades in armor, firepower, and mobility. Equipped with a 120mm smoothbore gun and advanced fire control systems, it offers superior accuracy and lethality. The upgraded armor provides enhanced protection against modern threats like IEDs and anti-tank missiles, while improved mobility allows the tank to operate effectively in diverse terrains. Exported to countries like Qatar, Hungary, and Norway, the Leopard 2A7 has strengthened its global presence, showcasing its appeal to international customers seeking cutting-edge main battle tanks. These upgrades and exports ensure the Leopard 2A7 remains a powerful force on the battlefield.</p>
+            
+            <p><br><h2>Legacy:</h2></p>
+
+            <p><br>The Leopard 2A7 continues the legacy of the Leopard 2 series, renowned for its durability, firepower, and versatility. It builds on decades of operational success, proving itself in various combat environments and gaining global recognition for its reliability and performance. The Leopard 2A7's advanced features and export success have solidified its place as one of the most formidable and adaptable main battle tanks in the world, cementing the Leopard 2 family’s reputation as a cornerstone of modern armored warfare. Its legacy influences ongoing tank development and has set a high standard for future tank designs.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+    </footer>
+</body>
+</head>
