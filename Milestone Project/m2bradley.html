@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787;
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%;
+        max-width: auto;
+        height: auto;
+    }
+
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        padding-right: 5px;
+    }
+    p {
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Tankopedia: M2 Bradley IFV</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="grid-container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/US_M2A1_Bradley_deployed_to_Saudi_Arabia_during_Operation_Desert_Shield.jpg" alt="M2 Bradley IFV">
+        </div>
+        <div class="text">
+          <h2>General information</h2>
+          <ul>
+            <li>
+              Main gun:<br> 25mm M242 Bushmaster chain gun
+            </li>
+            <li>
+              Secondary:<br> TOW missile launcher<br>1x 7.62mm M240C machine gun
+            </li>
+            <li>
+              Engine:<br> Cummins VTA-903T diesel engine, 600 hp
+            </li>
+            <li>
+              service:<br> 1981–present
+            </li>
+            <li>
+              start of Development:<br> 1963 (XM723 project), finalized in the late 1970s
+            </li>
+            <li>
+              Weight:<br> approx. 27.6 tons
+            </li>
+            <li>
+              Speed:<br> up to 41 mph (66 km/h)
+            </li>
+            <li>
+              Crew:<br> 3 (commander, gunner, driver) + 6 infantry
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1>History</h1>
+      <p>The M2 Bradley Infantry Fighting Vehicle was developed by the United States to transport infantry while providing fire support on the battlefield. Introduced in the early 1980s, it was designed to counter Soviet BMPs and allow U.S. troops to fight from within the vehicle.</p>
+
+      <br><h2>Design and Features:</h2><br>
+      <p>The Bradley is heavily armed for an infantry vehicle, with a 25mm autocannon and TOW missile launcher, giving it serious anti-tank capabilities. It features aluminum armor with spaced laminate for protection and includes advanced optics and targeting systems. Later models received improved armor and explosive reactive protection.</p>
+
+      <br><h2>Operational History:</h2><br>
+      <p>The Bradley was first used in combat during the Gulf War in 1991, where it performed well, reportedly destroying more enemy vehicles than the M1 Abrams. It has since been used in Iraq and Afghanistan, proving adaptable to both armored warfare and counter-insurgency roles.</p>
+
+      <br><h2>Upgrades and Export:</h2><br>
+      <p>Several upgraded versions exist, including the M2A2 and M2A3, which include improved electronics, better survivability, and digital interfaces. The Bradley has not been widely exported but remains a core vehicle in the U.S. Army's mechanized units.</p>
+
+      <br><h2>Legacy:</h2><br>
+      <p>Still in active use over 40 years after its introduction, the Bradley has become a mainstay of U.S. infantry forces. Though it has faced criticism over cost and protection, its firepower and versatility have secured its place as one of the most influential IFVs of the Cold War era and beyond.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>

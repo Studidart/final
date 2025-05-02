@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333; /* Dark background */
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none; /* Remove bullet points */
+      display: flex; /* Make it horizontal */
+      gap: 20px; /* Space between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787; /* Color when hovering */
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px; /* 1x2 grid, 1 part for image, 2 parts for text */
+        gap: 20px; /* Space between image and text */
+        align-items: center; /* Vertically centers content */
+        padding: 20px;
+    }
+
+    /* Image styles */
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%; /* Makes image responsive */
+        max-width: auto; /* Optional: Sets a max width */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    /* Text styles */
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        padding-right: 5px;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    /* Optional: Make it more responsive for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr; /* Stacks the image and text vertically on small screens */
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Tankopedia: T-90A</h1>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    <main>
+        <section>
+            <div class="grid-container">
+                <div class="image">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/T-90-ET_2010.jpg" alt="T-90A">
+                </div>
+                <div class="text">
+                    <h2>General information</h2>
+                    <ul>
+                        <li>
+                            Main gun:<br>125mm 2A46M smoothbore cannon
+                        </li>
+                        <li>
+                            Secondary:<br> 1x 12.7mm Kord HMG<br>1x 7.62mm PKT coaxial MG
+                        </li>
+                        <li>
+                            Engine:<br> V-92S2 diesel engine, 1,000 hp
+                        </li>
+                        <li>
+                            service:<br> 2004–present
+                        </li>
+                        <li>
+                            start of Development:<br>1992
+                        </li>
+                        <li>
+                            Weight:<br> approx. 46.5 tons
+                        </li>
+                        <li>
+                            Speed:<br> up to 37 mph (60 km/h)
+                        </li>
+                        <li>
+                            Crew:<br> 3 people
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h1>History</h1>
+            <p>The T-90A is an upgraded variant of the original T-90, which itself is a continuation of the Soviet T-72 platform. First introduced in the early 2000s, the T-90A incorporated major improvements in armor, electronics, and firepower, positioning it as Russia's most capable tank until the introduction of the T-14 Armata.</p>
+
+            <br><h2>Design and Features:</h2><br>
+            <p>The T-90A features Kontakt-5 explosive reactive armor (ERA), a modernized turret with better ballistic protection, and a thermal imaging sight for the gunner. The 125mm smoothbore cannon can fire a variety of rounds including anti-tank guided missiles (ATGMs). Its low silhouette and compact design make it harder to target in open terrain.</p>
+            
+            <br><h2>Operational History:</h2><br>
+            <p>The T-90A has seen combat in various conflicts including the Syrian Civil War and the Russo-Ukrainian War. It has demonstrated a high degree of survivability and continues to serve as a backbone of Russian armored forces. Its export variants have also been used by countries like India and Algeria.</p>
+            
+            <br><h2>Upgrades and Export:</h2><br>
+            <p>Russia has exported T-90 variants such as the T-90S and T-90MS to several allied countries. The T-90A itself was upgraded from earlier models with a welded turret, improved thermal optics, and a more powerful engine. Export models often feature region-specific modifications based on client needs.</p>
+
+            <br><h2>Legacy:</h2><br>
+            <p>The T-90A remains in active service and has influenced the design of newer tanks in both Russia and abroad. It is widely regarded as a capable and cost-effective third-generation main battle tank, respected for its battlefield performance and modern systems.</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+    </footer>
+</body>
+</head>

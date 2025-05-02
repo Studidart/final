@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+    .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-list li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    .nav-list li a:hover {
+      color: #888787;
+    }
+    section {
+      background: #adadad;
+      border: 8px solid #464646;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+    .grid-container .image img {
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+    .grid-container .text {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 20%;
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      padding-right: 5px;
+    }
+    p {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 300px){
+      .grid-container .image img{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Tankopedia: Leopard 1</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="grid-container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Leopard_1v_lesany.jpg" alt="Leopard 1">
+        </div>
+        <div class="text">
+          <h2>General information</h2>
+          <ul>
+            <li>
+              Main gun:<br> 105mm Royal Ordnance L7A3 rifled gun
+            </li>
+            <li>
+              Secondary:<br> 2x 7.62mm MG3 machine guns
+            </li>
+            <li>
+              Engine:<br> MTU MB 838 CaM 500 10-cylinder multi-fuel engine, 830 hp
+            </li>
+            <li>
+              service:<br> 1965–present (in limited roles)
+            </li>
+            <li>
+              start of Development:<br> 1956 (West Germany)
+            </li>
+            <li>
+              Weight:<br> approx. 42.2 tons
+            </li>
+            <li>
+              Speed:<br> up to 65 km/h (40 mph)
+            </li>
+            <li>
+              Crew:<br> 4 people
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1>History</h1>
+      <p>Developed by West Germany in the aftermath of World War II, the Leopard 1 was designed to meet NATO’s needs for a modern main battle tank capable of rapid maneuver and fire superiority. It entered service in 1965 and became a cornerstone of Western armored doctrine.</p>
+
+      <br><h2>Design and Features:</h2><br>
+      <p>The Leopard 1 prioritized mobility and firepower over heavy armor, reflecting the idea that no tank could withstand modern anti-tank weapons. Its L7 105mm gun was a proven NATO standard, and the tank’s advanced optics and fire control systems gave it an edge in range and accuracy.</p>
+
+      <br><h2>Operational History:</h2><br>
+      <p>Though it never saw large-scale combat while in German service, the Leopard 1 was widely used and exported. Countries such as Canada, Belgium, the Netherlands, Australia, and Brazil fielded Leopard 1s in their armies. It saw action in peacekeeping and combat roles including in the Balkans and Afghanistan.</p>
+
+      <br><h2>Upgrades and Export:</h2><br>
+      <p>Many Leopard 1 variants were developed, including the Leopard 1A5 with improved fire control and armor. It was also adapted into recovery, engineering, and bridge-laying variants. Over a dozen countries adopted or upgraded the tank for local needs.</p>
+
+      <br><h2>Legacy:</h2><br>
+      <p>The Leopard 1 set the stage for the highly successful Leopard 2. Its blend of reliability, speed, and firepower influenced NATO tank design for decades. Even into the 2020s, some upgraded Leopard 1s remain in use, testifying to the platform’s enduring value.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>

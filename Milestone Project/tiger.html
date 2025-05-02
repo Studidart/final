@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+          /* Navbar styles */
+          .navbar {
+      background-color: #333; /* Dark background */
+      padding: 10px 20px;
+    }
+
+    .nav-list {
+      list-style-type: none; /* Remove bullet points */
+      display: flex; /* Make it horizontal */
+      gap: 20px; /* Space between links */
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav-list li a {
+      color: white; /* Text color */
+      text-decoration: none; /* Remove underline */
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    .nav-list li a:hover {
+      color: #888787; /* Color when hovering */
+    }
+    section {
+        background: #adadad;
+        border: 8px solid #464646;
+        border-radius: 8px;
+        padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    /* Basic Reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Grid container */
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 200px;
+        gap: 20px;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Image styles */
+    .grid-container .image img {
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        width: 100%;
+        max-width: auto;
+        height: auto;
+    }
+
+    /* Text styles */
+    .grid-container .text {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        position: relative;
+        padding-left: 20%;
+        border: black;
+        border: solid;
+        border-radius: 10px;
+        padding-right: 5px;
+    }
+    p{
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+    @media (max-width: 300px){
+        .grid-container .image img{
+            width: 100%
+        }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Tankopedia: Tiger I</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="grid-container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/4/43/Bundesarchiv_Bild_101I-554-0872-35%2C_Tunesien%2C_Panzer_VI_%28Tiger_I%29.jpg" alt="Tiger I">
+        </div>
+        <div class="text">
+          <h2>General information</h2>
+          <ul>
+            <li>
+              Main gun:<br> 8.8 cm KwK 36 L/56
+            </li>
+            <li>
+              Secondary:<br> 2x 7.92mm MG34 machine guns
+            </li>
+            <li>
+              Engine:<br> Maybach HL230 P45 V-12 petrol engine, 700 PS
+            </li>
+            <li>
+              service:<br> 1942–1945
+            </li>
+            <li>
+              start of Development:<br> 1937
+            </li>
+            <li>
+              Weight:<br> approx. 57 tons
+            </li>
+            <li>
+              Speed:<br> up to 24 mph (38 km/h)
+            </li>
+            <li>
+              Crew:<br> 5 people
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1>History</h1>
+      <p>The Tiger I was developed by Nazi Germany during World War II in response to increasingly well-armored Allied tanks. It made its combat debut in 1942 and quickly became feared for its powerful gun and thick armor.</p>
+
+      <br><h2>Design and Features:</h2><br>
+      <p>The Tiger I featured heavy frontal armor (up to 100mm) and the deadly 88mm gun, capable of knocking out any Allied tank at long range. Despite its strength, it was mechanically complex and prone to breakdowns. Its overlapping road wheels and heavy weight also made it difficult to transport and maintain.</p>
+      
+      <br><h2>Operational History:</h2><br>
+      <p>Deployed mainly on the Eastern Front and in Western Europe, Tiger Is saw action in key battles such as Kursk and Normandy. They were most effective in defensive roles or long-range ambushes but were vulnerable to flanking and mechanical failure.</p>
+      
+      <br><h2>Upgrades and Export:</h2><br>
+      <p>No direct export or allied use occurred due to its cost and complexity. The Tiger II (King Tiger) was its successor, offering even more armor and firepower but inheriting many of the same drawbacks.</p>
+
+      <br><h2>Legacy:</h2><br>
+      <p>Though only about 1,350 units were built, the Tiger I left a massive legacy. Its psychological impact and reputation on the battlefield far exceeded its numbers, and it remains one of the most famous tanks in history. Surviving examples are preserved in museums and remain popular in documentaries and games.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+    .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-list li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    .nav-list li a:hover {
+      color: #888787;
+    }
+    section {
+      background: #adadad;
+      border: 8px solid #464646;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+    .grid-container .image img {
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+    .grid-container .text {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 20%;
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      padding-right: 5px;
+    }
+    p {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 300px){
+      .grid-container .image img{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Tankopedia: Stryker ICV</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="grid-container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/A_Stryker_armored_vehicle_manned_by_U.S._Soldiers_with_the_2nd_Cavalry_Regiment_moves_in_a_convoy_during_exercise_Saber_Junction_near_Hohenfels%2C_Germany_121023-A-ZR192-004.jpg" alt="Stryker ICV">
+        </div>
+        <div class="text">
+          <h2>General information</h2>
+          <ul>
+            <li>
+              Main gun:<br> M2 .50 cal machine gun or 40mm Mk 19 grenade launcher (remotely operated)
+            </li>
+            <li>
+              Secondary:<br> Smoke grenade launchers
+            </li>
+            <li>
+              Engine:<br> Caterpillar C7 diesel engine, 350 hp
+            </li>
+            <li>
+              service:<br> 2002–present
+            </li>
+            <li>
+              start of Development:<br> Late 1990s
+            </li>
+            <li>
+              Weight:<br> approx. 19–21 tons depending on variant
+            </li>
+            <li>
+              Speed:<br> up to 60 mph (97 km/h)
+            </li>
+            <li>
+              Crew:<br> 2 crew + 9 infantry
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1>History</h1>
+      <p>The Stryker family was introduced in the early 2000s as a fast, air-transportable wheeled armored vehicle for rapid deployment forces. It was designed to fill the gap between heavy tracked vehicles and lighter HMMWVs.</p>
+
+      <br><h2>Design and Features:</h2><br>
+      <p>The Stryker ICV features 8×8 wheeled mobility, high-speed capability, and a fully enclosed armored hull. It includes a Remote Weapon Station (RWS), advanced communications, and optional armor upgrades like slat armor or double-V hulls for IED protection.</p>
+
+      <br><h2>Operational History:</h2><br>
+      <p>Strykers have been deployed in Iraq, Afghanistan, and other theaters, showing their value in urban and rapid-reaction combat scenarios. Their modularity and speed have made them crucial for infantry transport and reconnaissance.</p>
+
+      <br><h2>Upgrades and Export:</h2><br>
+      <p>Modern Stryker variants include the Dragoon (30mm cannon), MEHEL (laser systems), and others. While primarily used by the U.S. Army, some allied forces have adopted or evaluated the platform due to its versatility and speed.</p>
+
+      <br><h2>Legacy:</h2><br>
+      <p>The Stryker redefined U.S. Army doctrine by enabling rapid deployment and operational flexibility. It remains a central component of American brigade combat teams and continues to evolve to meet modern battlefield threats.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
