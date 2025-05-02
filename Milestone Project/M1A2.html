@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: #f4f1ea;
+    }
+    main {
+      padding: 2rem;
+    }
+    .navbar {
+      background-color: #333;
+      padding: 10px 20px;
+    }
+    .nav-list {
+      list-style-type: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+    .nav-list li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+    .nav-list li a:hover {
+      color: #888787;
+    }
+    section {
+      background: #adadad;
+      border: 8px solid #464646;
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 0.5rem;
+    }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 200px;
+      gap: 20px;
+      align-items: center;
+      padding: 20px;
+    }
+    .grid-container .image img {
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      width: 100%;
+      height: auto;
+    }
+    .grid-container .text {
+      font-family: Arial, sans-serif;
+      line-height: 1.5;
+      position: relative;
+      padding-left: 20%;
+      border: black;
+      border: solid;
+      border-radius: 10px;
+      padding-right: 5px;
+    }
+    p {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 15px;
+    }
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 300px){
+      .grid-container .image img{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Tankopedia: M1A2 Abrams</h1>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="grid-container">
+        <div class="image">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/e3/U.S._Army_M1A2_Abrams_Iraq_2005_retouched.jpg" alt="M1A2 Abrams">
+        </div>
+        <div class="text">
+          <h2>General information</h2>
+          <ul>
+            <li>
+              Main gun:<br> 120mm M256 smoothbore cannon
+            </li>
+            <li>
+              Secondary:<br> 1x M2 .50 cal<br>2x 7.62mm M240 machine guns
+            </li>
+            <li>
+              Engine:<br> Honeywell AGT1500 gas turbine engine, 1,500 hp
+            </li>
+            <li>
+              service:<br> 1992–present (M1A2 variant)
+            </li>
+            <li>
+              start of Development:<br> 1980s (for M1A2)
+            </li>
+            <li>
+              Weight:<br> approx. 68 tons (M1A2 SEPv3)
+            </li>
+            <li>
+              Speed:<br> up to 42 mph (67 km/h)
+            </li>
+            <li>
+              Crew:<br> 4 people
+            </li>
+          </ul>
+        </div>
+      </div>
+      <h1>History</h1>
+      <p>The M1 Abrams series was developed during the Cold War to replace the M60. The M1A2, an advanced variant introduced in the 1990s, brought significant upgrades in firepower, armor, and electronics. It remains the backbone of U.S. armored forces today.</p>
+
+      <br><h2>Design and Features:</h2><br>
+      <p>The M1A2 features composite armor with depleted uranium layers, a powerful 120mm gun, and advanced targeting systems. It includes upgrades like thermal imaging, digital command interfaces, and modular turret enhancements like TUSK (Tank Urban Survival Kit).</p>
+
+      <br><h2>Operational History:</h2><br>
+      <p>The M1A2 has seen combat in Iraq and Afghanistan, demonstrating its dominance in both open and urban combat environments. It has proven resilient against mines, IEDs, and RPGs thanks to its robust armor and countermeasures.</p>
+
+      <br><h2>Upgrades and Export:</h2><br>
+      <p>The latest SEPv3 and SEPv4 versions bring improved communications, electronics, and armor. The Abrams has been exported to allies like Egypt, Kuwait, Australia, and Poland. It's also being adapted for new roles and technologies like hybrid engines and active protection systems.</p>
+
+      <br><h2>Legacy:</h2><br>
+      <p>The M1A2 Abrams is one of the most powerful and battle-tested tanks in the world. With continuous upgrades, it remains a critical part of American military strategy and symbolizes modern armored dominance.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 RC industries LLC. All rights reserved.</p>
+  </footer>
+</body>
+</html>
